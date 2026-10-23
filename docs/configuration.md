@@ -646,6 +646,12 @@ The flag is a home-local supervision-noise preference and is not inherited by se
 
 [`architecture.md`](architecture.md) owns the wait-evidence contract and which records may take the ladder away; `bin/fm-watch.sh`'s `wedge_wait_evidence` owns the exact derivation and its fail-closed boundaries.
 
+## Fork updates
+
+[`updatefirstmate`](../.agents/skills/updatefirstmate/SKILL.md) owns integration authority, qualification, per-origin consumption and the human-owned primary activation handover.
+[`bin/fm-update.sh`](../bin/fm-update.sh)'s header and help own exact interfaces and record mechanics.
+Changing a shared remote name or refreshing gate registration has shared effects and requires concrete setup approval; updater invocation itself grants neither operation.
+
 ## Gate defaults (.no-mistakes.yaml)
 
 The tracked `.no-mistakes.yaml` sets `test.evidence.store_in_repo: true` and pins `commands.lint` to `bin/fm-lint.sh`, the same owner CI invokes.
